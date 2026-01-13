@@ -1,4 +1,4 @@
-#SEO related
+# SEO related
 * **LightHouse** on any web page shows improvement which can be done on the site etc for better
 user performance.
 * always give width and height to prevent layout shift on the site
@@ -6,7 +6,7 @@ user performance.
 ```html
 <img src="img.webp" loading="lazy">
 ```
-Browser loads image only when it’s about to appear
-*Faster initial load
-*Less bandwidth usage
-*Better Core Web Vitals
+### Browser loads image only when it’s about to appear
+* Faster initial load
+* Less bandwidth usage
+* Better Core Web Vitals
