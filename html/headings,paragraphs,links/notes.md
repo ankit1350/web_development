@@ -9,5 +9,5 @@
     '	                             	&apos;
    &	                             	&amp;
 
-   *<em>* for *italic*
-   **<strong>** for **bold** statement
+   <em> for *italic*
+   <strong> for **bold** statement
