@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning forms in html</title>
+</head>
+
+<body>
+    <H1>Enter your personal details</H1>
+    <form action="post">
+        <div>
+            <label for="name">Enter name: </label>
+            <input type="text" name="Name" id="name" placeholder="Enter your name" required autofocus>
+        </div>
+        <div>
+            <label for="email">Enter email: </label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="password">Enter password: </label>
+            <input type="password" name="password" id="password"
+                placeholder="Enter password at least 8 characters long" pattern=".{8,}" required>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female </label>
+        </div>
+        <div>
+        <input type="checkbox" name="age" id="age" value="18+">     <!--it only gives the square to mark-->
+        <label for="age">18 years or above?</label>    <!--this is the statement written there-->
+    </div>
+    <div>
+        <label for="comment">Enter any remarks</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="5" placeholder="description..."></textarea>
+    </div>
+    <div>
+        <label for="country">select your country</label>
+        <select name="country" id="country">
+            <option value="Dubai">Dubai</option>
+            <option value="In">India</option>  <!--user sees India and the servers receives In-->
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="UK">UK</option>
+            <option value="US">US</option>
+        </select>
+        
+    </div>
+    </form>
+</body>
+
+</html>
