@@ -12,11 +12,11 @@
 span {
   display: block;
 }
-    
+
 div {
   display: inline;
 }```
-+1 Block ↔ Inline is not fixed
+:+1: Block ↔ Inline is not fixed
 
 # Block Elements (Most Commonly Used First)
 

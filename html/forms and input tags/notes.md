@@ -20,8 +20,6 @@ Here are **SHORT NOTES** based on the topics we discussed (perfect for revision 
 
 ---
 
-
-
 ### 1️ `name` Attribute
 
 * Used to **identify form data**
