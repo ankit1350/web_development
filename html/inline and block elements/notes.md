@@ -3,6 +3,8 @@
     <p>On a starry night , oh my you sleep tight.</p>
     <a href="https://www.youtube.com/watch?v=_yTP_L8fC-k&list=RD_yTP_L8fC-k&start_radio=1">MY YOU</a>
     ```
+---
+
 * the paragraph tag is a blockline attribute, covers full blockline/width
 * the anchor tag covers only the small space upto which it is written
    * Does NOT start a new line
@@ -15,7 +17,9 @@ span {
 
 div {
   display: inline;
-}```
+}
+```
+
 :+1: Block ↔ Inline is not fixed
 
 # Block Elements (Most Commonly Used First)

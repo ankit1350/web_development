@@ -58,24 +58,24 @@ Here are **SHORT NOTES** based on the topics we discussed (perfect for revision 
 * Used for **multiple or yes/no choices**
 * If unchecked → data not sent
 * Without value → sends `on` (bad practice)
--
+
 ### 7️`textarea`
 
 * Used for **multi-line input**  ~description...
 * Text inside is actual value
 
----
+
 ### 8️ `select` & `option`
 
 * Dropdown menu
 * `value` is sent to server, text is shown to user
----
+
 
 ### 9️ `form` Attributes
 
 * `action` → where data goes
 * `method` → how data is sent (`GET` / `POST`)
----
+
 
 ### 🔑 Golden Rule (Very Important)
 
