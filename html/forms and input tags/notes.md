@@ -11,8 +11,9 @@
 * **Post** request is used for large data sets
 * autofocus:focuses the cursor automatically when the page loads
 ```html
-            <option value="In">India</option>  
-            ```
+<option value="In">India</option>  
+```
+
 *   ** user sees India and the servers receives In **
 
 Sure 👍
