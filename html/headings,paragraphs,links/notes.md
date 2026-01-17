@@ -3,11 +3,11 @@
 ~ `<!-- and -->`  use this for comment
 
 ~ Literal character	Character reference equivalent
-    <	                                ` &lt;`
-    >	                             	`&gt;`
-    "	                             `	&quot;`
-    '	                             `	&apos;`
-   &	                             `	&amp;`
+   * <	               -              ` &lt;`
+   * >	               -             	`&gt;`
+   * "	               -             `	&quot;`
+   * '	               -             `	&apos;`
+   * &	               -             `	&amp;`
 
    `<em>` for *italic*
    `<strong>` for **bold** statement
