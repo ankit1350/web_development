@@ -2,9 +2,10 @@
 
 ~ `<!-- and -->`  use this for comment
 
-~ Literal character	Character reference equivalent
+~ Literal character	Character
+* reference equivalent
    * <	               -              ` &lt;`
-   * >	               -             	`&gt;`
+   *  >	               -          	`&gt;`
    * "	               -             `	&quot;`
    * '	               -             `	&apos;`
    * &	               -             `	&amp;`
