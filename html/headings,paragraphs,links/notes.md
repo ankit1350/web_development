@@ -5,7 +5,7 @@
 ~ Literal character	Character
 * reference equivalent
    * <	               -              ` &lt;`
-   *  >	               -          	`&gt;`
+   *  `>`	               -          	`&gt;`
    * "	               -             `	&quot;`
    * '	               -             `	&apos;`
    * &	               -             `	&amp;`
