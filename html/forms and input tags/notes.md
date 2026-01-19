@@ -6,7 +6,7 @@
   * if the id is correct then the marking can **also** be done by just clicking the label written over there
 
 * **Get** request is used for simple data ~ *limited*
-    * passwords
+    * passwords never used in **Get** request 
 
 * **Post** request is used for large data sets
 * autofocus:focuses the cursor automatically when the page loads
@@ -14,12 +14,7 @@
 <option value="In">India</option>  
 ```
 
-*   ** user sees India and the servers receives In **
-
-Sure 👍
-Here are **SHORT NOTES** based on the topics we discussed (perfect for revision / exams).
-
----
+*   **user sees India and the servers receives In**
 
 ### 1️ `name` Attribute
 
