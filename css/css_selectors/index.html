@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* class selector */
+        .pink {
+            background-color: pink;
+        }
+
+        /* ID selector */
+        #blue {
+            background-color: rgb(110, 110, 195);
+        }
+
+        /* child selector */
+        div>p {
+            font-style: italic;
+            background-color: aquamarine;
+        }
+        div>span>p {
+            font-style: italic;
+            background-color: aquamarine;
+        }
+        /* descendant selector */
+        /* for inner paragraphs in div */
+        div p {
+            font-style: italic;
+            background-color: rgb(192, 198, 13);
+        }
+        /* universal */
+        *{
+            margin: 0cqb;
+            padding: 0cqmax;
+        }
+        /* pseudo selectors */
+        a:visited{
+            color: blueviolet;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: rgb(178, 237, 2);
+        }
+        a:hover{
+            color: pink;
+        }
+        /* in any tag, if p is the first child then apply this */
+        p:first-child{
+            color: rgb(0, 164, 173);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p>i am first</p>
+        <p>i am second</p>
+    </main>
+    <div class="pink">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, facere.</div>
+    <br><div id="blue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur dolorem vel porro! Cumque
+        dignissimos
+        nesciunt omnis neque!
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime nostrum aliquid voluptas at optio!</p>
+        <span>nothing
+            <p>Lorem ipsum dolor sit amet.</p> </span> 
+    </div>
+    <a href="https://github.com">github</a>
+    <a href="https://youtube.com">youtube</a>
+</body>
+
+</html>
